@@ -57,4 +57,4 @@ A similar cleaning process was used for our secondary data: unnecessary rows and
 
 For this project and the data we analyzed, we centered around supervised learning models. We began by performing a logistic regression to classify for futre years whether or not the county would experience a percent increase or decrease in price. 
 
-![edited_all_stats_df]
+![edited_all_stats_df](./Images/edited_all_stats_df.jpg)
