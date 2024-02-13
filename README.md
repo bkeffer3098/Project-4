@@ -12,6 +12,15 @@ An anlysis of the Housing Market sales data from 2011-2023.
 ### Reasons for Topic Selection
 As individuals who are or will eventually be looking to own property in Maryland, we found an intial pull to this topic. As we began to explore and analyze this data, we began to see a path to be able to answer different economical questions about where someone may want to purchase property within the state.
 
+### Description of Source Data
+Our data source is the Maryland Realtors website: https://www.mdrealtor.org/News-and-Events/Housing-Statistics
+
+The monthly housing statistics found there are presented as reported by Bright MLS, which is a multiple listing service (MLS) that offers a centralized platform for real estate professionals to access property listings and related information.
+
+The data is stored in PDF format, so we converted each file into a CSV which enabled us to manipulate the data to create the visualizations and machine learning elements of the project.
+
+The “Units” category represents sales settled in that month. The average sales is the weighted average of sales prices in the county. The average sales is the weighted average of sales prices in the county, calculated by weighting the price of homes by the number of homes sold. The median price is the middle value of the prices of all homes sold in the period—the price at which half the sold homes are above and half are below in selling price.
+
 ### Analysis Questions
 
 #### Tableau
