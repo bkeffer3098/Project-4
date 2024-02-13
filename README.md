@@ -69,4 +69,14 @@ We then proceeded to split our target, Increase of Decrease % Change, from our f
 
 It was here we began to notice our dataset was not as robust as we initially believed as referenced by the number of observations just being shy of 300. We were able to see high accuracy in both the training and testing groups as shown below.
 
-![training_test_report](./Images/training_test_report.jpg) 94% accuracy for the training group and 98% accuracy for the testing group. 
+### Logistic Regression Report
+![training_test_report](./Images/training_test_report.jpg) 
+
+94% accuracy for the training group and 98% accuracy for the testing group. 
+
+From here we were curious to run two different supervised learning models: SVM and Random Forest. The results we very similar to the logistic regression model. 
+
+### SVM Model Report
+![SVM_report](./Images/SVM_report.jpg)
+
+![RF_confusion_report](./Images/RF_conmfusion_report.jpg)
