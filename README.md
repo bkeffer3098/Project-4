@@ -59,6 +59,14 @@ A similar cleaning process was used for our secondary data: unnecessary rows and
 
 ## Machine Learning: Supervised
 
-For this project and the data we analyzed, we centered around supervised learning models. We began by performing a logistic regression to classify for futre years whether or not the county would experience a percent increase or decrease in price. 
+For this project and the data we analyzed, we centered around supervised learning models due to our targets being labeled and already existing within our datasets. We began by performing a logistic regression to classify for future years whether or not the county would experience a percent increase or decrease in price. 
 
 ![edited_all_stats_df](./Images/edited_all_stats_df.jpg)
+
+We then proceeded to split our target, Increase of Decrease % Change, from our features, year, units sold, units % change, and average price, to then use a train_test_split. In this way we are using as a logistic regression to train the model to be able to accurately classify our testing group as being an increase or decrease year. Next we utilized the confusion matrix upon our training data, testing data, and predicted values to assess how accurately our model was classifying. 
+
+![confusion_matrix](./Images/confusion_matrix.jpg)
+It was here we began to notice our dataset was not as robust as we initially believed as referenced by the number of observations just being shy of 300. We were able to see high accuracy in both the training and testing groups as shown below.
+
+![training_test_report](./Images/training_test_report.jpg)
+94% accuracy for the training group and 98% accuracy for the testing group. 
