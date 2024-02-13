@@ -74,9 +74,9 @@ It was here we began to notice our dataset was not as robust as we initially bel
 
 94% accuracy for the training group and 98% accuracy for the testing group. 
 
-From here we were curious to run two different supervised learning models: SVM and Random Forest. The results we very similar to the logistic regression model. 
+From here we were curious to run two different supervised learning models: SVM and Random Forest. These models performed similarly to the Logistic Regression testing group, producing a 98% accuracy.
 
 ### SVM Model Report
 ![SVM_report](./Images/SVM_report.jpg)
 
-![RF_confusion_report](./Images/RF_conmfusion_report.jpg)
+![RF_confusion_report](./Images/RF_confusion_report.jpg)
