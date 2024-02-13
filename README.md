@@ -59,6 +59,7 @@ A similar cleaning process was used for our secondary data: unnecessary rows and
 
 ## Machine Learning: Supervised
 
+### Initial Models
 For this project and the data we analyzed, we centered around supervised learning models due to our targets being labeled and already existing within our datasets. We began by performing a logistic regression to classify for future years whether or not the county would experience a percent increase or decrease in price. 
 
 ![edited_all_stats_df](./Images/edited_all_stats_df.jpg)
@@ -69,14 +70,21 @@ We then proceeded to split our target, Increase of Decrease % Change, from our f
 
 It was here we began to notice our dataset was not as robust as we initially believed as referenced by the number of observations just being shy of 300. We were able to see high accuracy in both the training and testing groups as shown below.
 
-### Logistic Regression Report
+#### Logistic Regression Report
 ![training_test_report](./Images/training_test_report.jpg) 
 
 94% accuracy for the training group and 98% accuracy for the testing group. 
 
 From here we were curious to run two different supervised learning models: SVM and Random Forest. These models performed similarly to the Logistic Regression testing group, producing a 98% accuracy.
 
-### SVM Model Report
+#### SVM Model Report
 ![SVM_report](./Images/SVM_report.jpg)
 
+#### Random Forest Model Report
 ![RF_confusion_report](./Images/RF_confusion_report.jpg)
+
+#### Initial Learning Results
+While producing a high level of accuracy in being able to correctly classify each year as having an increase in home price or decrease, this dataset leaves much to be desired. The lack of years and counties that experienced a decrease in price was too low to be able to fully trust the models used. A dataset with a higher number of observations would be better suited for this classification. 
+
+### Secondary Model
+While not being able to fully trust our previous models success, in finding additional datasets we were able to more deeply explore the Maryland Housing Market. As we proceed we will be analyzing the new data with a linear regression meant to help predict what the median price for homes may be. 
