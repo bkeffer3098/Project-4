@@ -47,3 +47,14 @@ For our inital data, our analysis began by exporting the pdfs we were able to fi
 
 A similar cleaning process was used for our secondary data: unnecessary rows and columns were deleted, the data was merged into one file, and the final dataset displays the county, what quarter of the year, the count of units sold, and the median price. 
 
+# Results of Analysis
+
+## Tableau Visualizations
+
+
+
+## Machine Learning: Supervised
+
+For this project and the data we analyzed, we centered around supervised learning models. We began by performing a logistic regression to classify for futre years whether or not the county would experience a percent increase or decrease in price. 
+
+![edited_all_stats_df]
