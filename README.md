@@ -88,3 +88,18 @@ While producing a high level of accuracy in being able to correctly classify eac
 
 ### Secondary Model
 While not being able to fully trust our previous models success, in finding additional datasets we were able to more deeply explore the Maryland Housing Market. As we proceed we will be analyzing the new data with a linear regression meant to help predict what the median price for homes may be. 
+
+We begin with a cleaned dataset which includes the County, Quarter, Year, Sale Count, and Median Price of homes in Maryland from 2011-2023. In making the scatterplot below we begin to see a correlation between the Count of homes sold and the Median Prices of those houses. 
+
+![Original_count_medprice_plt](./Images/Original_count_medprice_plt.jpg)
+
+By using a Linear Regression and fitting our independent and dependent variables, we are able to find the line of best fit for this scatterplot and add this line to our visual. 
+
+![original_bestfit_plt](./Images/original_bestfit_plt.jpg)
+
+To assess this line's accuracy to our plot we performed an R^2 test to see a score of approximately 0.30, which is not a high enough score to trust moving forward. In seeing this model's performance it becomes clear that we need to include more features in our model as well as scaling and encoding any non-numerical values to potentially see a better performance. We set our features as Quarter, Year, and Count and our target remains Median Price. Our training data gets set as the values from the dataset before 2021, our validation data is from 2022, and our test data will be set as 2023. We used category_encoders and OneHotEncoder functions as well as a StandardScaler to adjust our dats for any potential outliers, then rerun our R^2 test. The R^2 value at this point is approximately 0.11, which shows a decrease from our inital round of testing. 
+
+#### Secondary Learning Results
+Even though we had moved into a different home sales dataset that provided us with a more robust number of observations, we we not able to find the right level of success in trusting our model to be able to predict Median Prices accurately. Outliers within the data could be at fault, or potential inclusion of the counties as a numerical feature could provide better results. 
+
+
