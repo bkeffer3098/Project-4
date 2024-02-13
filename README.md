@@ -42,6 +42,7 @@ Using a decades worth of Maryland home sales data, can we:
 3. Improve upon the linear regression using encoding and scaling?
 
 ##ETL Process (Extract, Transform, Load)
+
 For our inital data, our analysis began by exporting the pdfs we were able to find as excel files. We then cleaned these excel files by deleting rows and columns we deemed uneccesary such as State Totals, Units Pending, Active Inventory, etc. Once cleaned, the manually merged the excel files into one larger dataset to display the county, year, units sold, average price, price % change, median price, median days on the market, and a column from an excel formula intially prediciting if the county's price had increased or decreased that year. This datset was then saved as a CSV for analysis purposes. 
 
 A similar cleaning process was used for our secondary data: unnecessary rows and columns were deleted, the data was merged into one file, and the final dataset displays the county, what quarter of the year, the count of units sold, and the median price. 
