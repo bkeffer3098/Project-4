@@ -21,9 +21,13 @@ The data is stored in PDF format, so we converted each file into a CSV which ena
 
 The “Units” category represents sales settled in that month. The average sales is the weighted average of sales prices in the county. The average sales is the weighted average of sales prices in the county, calculated by weighting the price of homes by the number of homes sold. The median price is the middle value of the prices of all homes sold in the period—the price at which half the sold homes are above and half are below in selling price.
 
+![source_2022](source_2022.jpg)
+
 Our secondary source was from the Maryland state website within the Department of Assessments and Taxation: https://dat.maryland.gov/Pages/Sales-Data.aspx
 
 This Sales Data became necessary for this projects success because it offered hundreds more observations for the machine learning models to learn from. This data is broken down into a count of quarterly sales throughout the last decade as well as the median price those units were sold for. 
+
+![2nd_source_2023](2nd_source_2023.jpg)
 
 ### Analysis Questions
 
