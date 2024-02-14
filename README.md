@@ -87,6 +87,7 @@ High Days on Market
 Low Price Change Percentage
 
 ![lowest_units_solds](./Images/lowest_units_solds.jpg)
+
 Low Unit Sales Volume
 
 ## Machine Learning: Supervised
