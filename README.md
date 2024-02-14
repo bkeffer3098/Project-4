@@ -74,7 +74,7 @@ The newly created 6 Year Average not only offers us context, but also allows us 
 
 *Images below filter for top 5*
 
-![avgprice_by_county](./Images/avgprice_by_county.jpg)
+![avg_price](./Images/avg_price.jpg)
 Low Average Price
 
 ![medprice_by_county](./Images/medprice_by_county.jpg)
@@ -83,7 +83,7 @@ Low Median Price
 ![avg_days_on_market](./Images/avg_days_on_market.jpg)
 High Days on Market
 
-![%_price_change](./Images/%_price_change.jpg)
+![percent_price_change](./Images/percent_price_change.jpg)
 Low Price Change Percentage
 
 ![lowest_units_sold](./Images/lowest_units_sold.jpg)
