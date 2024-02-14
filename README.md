@@ -73,6 +73,7 @@ These visualizations were difficult to identify trends with at that stage, so we
 The newly created 6 Year Average not only offers us context, but also allows us to rank each county on its performance in each key factor over the past six years. We decided this was the best way to approach answering our overarching question of which Maryland counties have the most buyer friendly housing market conditions. Using the six year average instead of solely the most recent year’s data (2023) seemed more likely to offer an accurate answer as it factors for the volatility in the housing market of late. Here are the results for top 5 counties by each key factor (and thus the most buyer friendly housing markets over the past six years):
 
 *Screenshots here of each Key Factor top 5*
+
 ![6 yr avg price by county](./Images/6 yr avg price by county.jpg)
 
 Low Average Price
