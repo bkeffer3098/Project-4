@@ -83,10 +83,10 @@ Low Median Price
 ![avg_days_on_market](./Images/avg_days_on_market.jpg)
 High Days on Market
 
-![%price_change](./Images/%price_change.jpg)
+![%_price_change](./Images/%_price_change.jpg)
 Low Price Change Percentage
 
-![lowest_units_sold](./Images/lowest_units_solds.jpg)
+![lowest_units_sold](./Images/lowest_units_sold.jpg)
 
 Low Unit Sales Volume
 
