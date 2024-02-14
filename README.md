@@ -55,6 +55,8 @@ A similar cleaning process was used for our secondary data: unnecessary rows and
 
 ## Tableau Visualizations
 
+[Tableau Public](https://public.tableau.com/app/profile/ryan.pfefferle/viz/Project4_17071831826640/Story1)
+
 We utilized Tableau to create visualizations with our main goals being to identify which Maryland counties have the most buyer friendly housing market conditions?
 
 In order to answer this question using Tableau, we first took the source data PDFs, and converted them into CSVs. There is a CSV for each year the data source contained (from 2016 to 2023) but we decided to focus on the data from the past six years as we wanted some recent historical context, but also want information that is current to base our analysis on. Then, we cleaned the CSVs and deleted any columns that we deemed unnecessary for our intended goal.
