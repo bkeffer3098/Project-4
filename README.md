@@ -66,14 +66,15 @@ High Days on Market
 Low Price Change Percentage
 Low Unit Sales Volume
 
-We created a Tableau worksheet with a visualization for each of these key factors which helped us analyze the counties on a factor by factor basis. This enabled us to see which counties ranked in the top five among each of these key factors on a year by year basis (as seen in this example *Screenshot Here*). We found this information useful especially because it allows us to look at 2023 specifically which gives us an idea of each counties' current housing market while additionally being curious about recent trends. 
+We created a Tableau worksheet with a visualization for each of these key factors which helped us analyze the counties on a factor by factor basis. This enabled us to see which counties ranked in the top five among each of these key factors on a year by year basis (as seen in this example below *Screenshot Here*). We found this information useful especially because it allows us to look at 2023 specifically which gives us an idea of each counties' current housing market while additionally being curious about recent trends. 
 
-These visualizations were difficult to identify trends with at that stage, so we decided to make a new column called “6 Year Average” to offer more context. To create the “6 Year Average” column found in a few of the visualizations we made a new measure value by creating a calculated field that adds up the sum of each year’s data and divides that number by 6 to give us the six year average. (*Screenshot here would be good to show what I’m talking about*)
+These visualizations were difficult to identify trends with at that stage, so we decided to make a new column called “6 Year Average” to offer more context. To create the “6 Year Average” column found in a few of the visualizations we made a new measure value by creating a calculated field that adds up the sum of each year’s data and divides that number by 6 to give us the six year average. (*Screenshot here would be good to show what I’m talking about*) 6 year average example
 
 The newly created 6 Year Average not only offers us context, but also allows us to rank each county on its performance in each key factor over the past six years. We decided this was the best way to approach answering our overarching question of which Maryland counties have the most buyer friendly housing market conditions. Using the six year average instead of solely the most recent year’s data (2023) seemed more likely to offer an accurate answer as it factors for the volatility in the housing market of late. Here are the results for top 5 counties by each key factor (and thus the most buyer friendly housing markets over the past six years):
 
 *Screenshots here of each Key Factor top 5*
-![
+![6 yr avg price by county](./Images/6 yr avg price by county.jpg)
+
 Low Average Price
 Low Median Price
 High Days on Market
